@@ -86,7 +86,7 @@ public class UserRestController {
 		// u.setBirthday(d); // TODO
 		// u.setImage(image);
 		// u.setIcon(icon);
-		//u.setEmail(mail);
+		u.setEmail(mail);//
 		u.setMobile(o.getString("mobile"));
 		u.setRegtime(new Date());
 		int num = userService.addUser(u);
