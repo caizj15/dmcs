@@ -5,7 +5,7 @@ spring:
         driverClass: com.mysql.jdbc.Driver  
         url: jdbc:mysql://localhost:3306/dmcs?useUnicode=true&characterEncoding=utf-8  
         username: root  
-        password: 123456 
+        password: caizj15
         # 使用druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
